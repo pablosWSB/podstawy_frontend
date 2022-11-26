@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* :root == html */
+:root {
+    scroll-behavior: smooth;
+}
+ 
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/11/05/architecture-1838626_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ 
+.header__headings {
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.header_h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+ 
+.header_readMore {
+    margin-bottom: 50px;
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 15px;
+}
